@@ -1,0 +1,8 @@
+# local DB passwords must never be pushed
+config/config.local.php
+# user uploads (keep the folder + sample file)
+uploads/*
+!uploads/.htaccess
+!uploads/sample_notes.txt
+.DS_Store
+Thumbs.db
